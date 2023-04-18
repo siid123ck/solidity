@@ -1,19 +1,24 @@
 
+import { BrowserRouter } from 'react-router-dom'
 import Header from '../layout/header'
 import Home from '../pages/home'
 import Services from '../pages/services'
 import Transactions from '../pages/transactions'
 import './App.css'
+import Footer from '../layout/Footer'
 
 const App = () => 
-     <div className="main-h-screen">
-     <div className="gradient-bg-welcome">
+     <BrowserRouter>
+      <div className="min-h-screen">
+       <div className="gradient-bg-welcome">
         <Header />
         <Home />
-     </div>
-     <Services />
+     </div>  
+     <Services />  
      <Transactions />
-    </div>
+     <Footer />
+     </div>
+    </BrowserRouter>
   
 
 

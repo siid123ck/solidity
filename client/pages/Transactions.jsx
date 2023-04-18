@@ -2,8 +2,8 @@ import React from 'react'
 
 const Transactions = () => {
   return (
-    <div>Transactions</div>
+    <div>Transactionsdd </div>
   )
 }
 
-export default Transactions
+export default Transactions  
